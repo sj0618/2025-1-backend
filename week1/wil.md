@@ -36,17 +36,17 @@ API: 어플리케이션에서 원하는 기능을 수행하기 위해
 
 =========================================
 ##### **<API 과제 >**
-예시)• 할 일 전체 조회 : GET /todo/list
-• 할 일 생성 : POST /todo
-• 할 일 수정 : PATCH /todo/{todo_id}
-• 할 일 삭제 : DELETE /todo/{todo_id}
-• 할 일 체크 : POST /todo/{todo_id}/check
+예시)• 할 일 전체 조회 : GET /todo/list  
+• 할 일 생성 : POST /todo  
+• 할 일 수정 : PATCH /todo/{todo_id}  
+• 할 일 삭제 : DELETE /todo/{todo_id}  
+• 할 일 체크 : POST /todo/{todo_id}/check  
 • 할 일 체크해제 : POST /todo/{todo_id}/uncheck
 
-회원가입: POST /user/signin/{user_id}
-로그인: POST /user/login
-친구 검색: GET /user/search/{user_id}
-팔로우: POST /user/{user_id}/follow
-언팔: DELETE /user/{user_id}/follow
-팔로우 리스트 조회: GET /user/friend_list
-친구 할일 조회: GET /user/{user_id}/todos
+회원가입: POST /user/signin/{user_id}  
+로그인: POST /user/login  
+친구 검색: GET /user/search/{user_id}  
+팔로우: POST /user/{user_id}/follow  
+언팔: DELETE /user/{user_id}/follow  
+팔로우 리스트 조회: GET /user/friend_list  
+친구 할일 조회: GET /user/{user_id}/todos  
